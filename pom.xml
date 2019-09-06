@@ -62,6 +62,7 @@
                </includes>
            </resource>
        </resources>
+       <finalName>springboot-kafka-example</finalName>
 	</build>
 
 </project>
