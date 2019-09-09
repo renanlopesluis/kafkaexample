@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 import com.kafkademo.kafkaconfig.KafkaProducerConfig;
 
 @Service
-public abstract class ProducerService<T> implements KafkaService<T> {
+public abstract class ProducerService<T> implements MessageService<T> {
 
 	KafkaTemplate<String, T> kafkaTemplate;
 	

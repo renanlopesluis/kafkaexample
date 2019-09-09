@@ -4,7 +4,7 @@ import org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory;
 
 import com.kafkademo.kafkaconfig.KafkaConsumerConfig;
 
-public abstract class ConsumerService<T> implements KafkaService<T>{
+public abstract class ConsumerService<T> implements MessageService<T>{
 	
 	ConcurrentKafkaListenerContainerFactory<String,T> kafkaListenerContainer;
 	
