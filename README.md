@@ -21,6 +21,10 @@ You may use this API by 3 ways:
 - by using API for message production and creating a consumer on terminal for message consumption
 - by creating a producer on terminal and consuming the message on the API
 
+**Make Sure**
+- Apache Zookeeper should be installed and started on machine;
+- Apache Kafka should be installed and started on machine;
+
 **Possible Improvements**
 - Adding Predicates to sift messages
 - Adding Converters for a better JSON to a specific Object serialization
